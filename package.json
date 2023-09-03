@@ -1,0 +1,37 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
+    "autoprefixer": "^10.4.14",
+    "jsdoc": "^4.0.2",
+    "nuxt": "^3.3.2",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.12",
+    "@heroicons/vue": "^2.0.17",
+    "@pinia/nuxt": "^0.4.7",
+    "@types/uuid": "^9.0.0",
+    "@webzlodimir/vue-avatar": "^0.0.8",
+    "firebase": "^9.19.1",
+    "firebase-admin": "^11.5.0",
+    "nuxt-vuefire": "^0.1.6",
+    "pinia": "^2.0.33",
+    "uuid": "^9.0.0",
+    "vue3-toastify": "^0.1.11",
+    "vuedraggable": "^4.1.0",
+    "vuefire": "^3.1.0"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}
